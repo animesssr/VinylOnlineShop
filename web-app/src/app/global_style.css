@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("./KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("./Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("./Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("./Soledago.ttf");
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e3bc8d8e;
+    border-radius: 9em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #e3bc8dc3;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    /*position: sticky;
+    top: 0;
+    z-index: 999;*/
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #D9CEBA;
+}
+@media screen and (max-width: 768px){
+    .nav{
+        display: none;
+    }
+    .logo_img{
+        margin: 0 !important;
+    }
+    .main-txt{
+        display: none;
+    }
+}
+button{
+    cursor: pointer;
+    height: fit-content;
+}
+.logo{
+    width: auto;
+    margin: auto;
+}
+.logo_img{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.nav{
+    margin: auto;
+    width: 75%;
+    font-family: "KellySlab";
+    font-size: 20px;
+}
+.nav-menu{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+.nav-menu_item{
+    display: flex;
+}
+.link-path{
+    user-select: none;
+    text-decoration-line: underline;
+    color: black;
+}
+.link{
+    text-decoration-line: none;
+    color: black;
+    user-select: none;
+}
+.link:hover{
+    text-decoration-line: underline;
+}
+
+.main-txt_img{
+    margin: 100px;
+    margin-bottom: 30px;
+}
+
+.vinyl_info{
+    display: flex;
+    flex-direction: column;
+    white-space: pre-wrap;
+    width: 100%;
+    height: -webkit-fill-available;
+    justify-content: space-between;
+}
+.vinyl-info_txt{
+    display: flex;
+    flex-direction: column;
+}
+.vinyl-card{
+    display: flex;
+    flex-direction: column;
+    word-break: normal;
+    margin: 25px;
+    width: 350px;
+}
+.vinyl_artist{
+    font-family: "Sura_R";
+    font-size: 20px;
+    margin: 0;
+}
+.vinyl_name{
+    font-family: "Sura_B";
+    font-size: 25px;
+    text-decoration-line: none;
+    color: black;
+    margin: 0;
+}
+.vinyl_edit{
+    font-family: "Sura_R";
+    font-size: 15px;
+    margin: 0;
+}
+.vinyl_price{
+    font-family: "Sura_B";
+    font-size: 38px;
+    color: #5A5A5A;
+    margin: 10px;
+}
+.vinyl_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute bottom;
+    align-items: center;
+}
+.vinyl_incart_form{
+    margin: auto;
+    margin-right: 0;
+    display: inline-block;
+}
+.btn_incart{
+    font-family: "Soledago";
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #F28705;
+}

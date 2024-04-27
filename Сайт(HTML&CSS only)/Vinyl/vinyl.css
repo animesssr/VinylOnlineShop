@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("/_Sources/KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("/_Sources/Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("/_Sources/Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("/_Sources/Soledago.ttf");
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #D9CEBA;
+}
+.logo{
+    width: auto;
+    margin: auto;
+}
+.logo_img{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.nav{
+    margin: auto;
+    width: 75%;
+    font-family: "KellySlab";
+    font-size: 20px;
+}
+.nav-menu{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+.nav-menu_item{
+    display: flex;
+}
+.link{
+    color: black;
+}
+.back_form{
+    display: flex;
+}
+.back_button{
+    display: flex;
+    font-family: "KellySlab";
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    margin-left: 5%;
+    color: #5A5A5A;
+}
+.back_button p{
+    margin: auto;
+}
+.back_button img{
+    margin: 10px;
+}
+
+
+.main-block{
+    display: flex;
+    justify-content:space-evenly;
+}
+.vinyl_info{
+    width: 400px;
+}
+.vinyl-card{
+    display: flex;
+    flex-direction: column;
+    word-break: normal;
+}
+.vinyl_artist{
+    font-family: "Sura_R";
+    font-size: 24px;
+    margin: 0;
+}
+.vinyl_name{
+    font-family: "Sura_B";
+    font-size: 35px;
+    margin: 0;
+}
+.vinyl_edit{
+    font-family: "Sura_R";
+    font-size: 16px;
+    margin: 0;
+}
+.vinyl_price{
+    font-family: "Sura_B";
+    font-size: 45px;
+    color: #5A5A5A;
+    margin: 10px;
+}
+.vinyl_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vinyl_incart_form{
+    margin: auto;
+    margin-right: 0;
+    display: inline-block;
+}
+.btn_incart{
+    font-family: "Soledago";
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #F28705;
+}
+
+.vinyl-tracklist{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.tracklist_title{
+    display: flex;
+    justify-content: center;
+    font-family: "Soledago";
+    font-size: 48px;
+    color: rgb(242, 68, 5, 50%);
+}
+.tracklist_list{
+    margin: 0;
+    font-family: "KellySlab";
+    font-size: 35px;
+    color: #5A5A5A;   
+}

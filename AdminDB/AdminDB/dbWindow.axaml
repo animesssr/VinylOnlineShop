@@ -1,0 +1,77 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        xmlns:model="using:AdminDB.mydb"
+        Name="root"
+        x:Class="AdminDB.dbWindow"
+        Title="dbWindow">
+
+    <TabControl>
+      <TabItem Header="Поиск">
+        <Grid Background="#FFE5E5E5">
+          <Grid ColumnDefinitions="Auto, Auto, Auto" RowDefinitions="Auto" Margin="5">
+            <TextBox Grid.Column="0" x:Name="search_tb" HorizontalAlignment="Left" TextWrapping="Wrap" Text="поиск" VerticalAlignment="Top" Width="306" Height="29" Background="White" BorderBrush="Black" FontSize="18"/>
+            <ComboBox Grid.Column="1" x:Name="sort_cb" HorizontalAlignment="Left" VerticalAlignment="Top" Width="173"/>
+            <ComboBox Grid.Column="2" x:Name="filtr_cb" HorizontalAlignment="Left" VerticalAlignment="Top" Width="173"/>
+          </Grid>
+          <DataGrid Margin="0,47,0,0" x:DataType="model:Vinyl" ItemsSource="{Binding #root.vinylList}">
+            <DataGrid.Columns>
+              <DataGridTextColumn
+               Header="Название"
+               Binding="{Binding Name}" />
+              <DataGridTextColumn
+               Header="Артист"
+               Binding="{Binding Artist}" />
+              <DataGridTextColumn
+               Header="Издание"
+               Binding="{Binding Edition}" />
+              <DataGridTextColumn
+               Header="Цена"
+               Binding="{Binding Cost}" />
+              <DataGridTextColumn
+               Header="Год"
+               Binding="{Binding Year}" />
+              <DataGridTextColumn
+               Header="Жанр"
+               Binding="{Binding Genre}" />
+              <DataGridTextColumn
+               Header="треклист"
+               Binding="{Binding IdTracklist}" />
+              <DataGridTextColumn
+               Header="relase_id"
+               Binding="{Binding ReleaseId}" />
+            </DataGrid.Columns>
+          </DataGrid>
+        </Grid>
+      </TabItem>
+      <TabItem Header="Добавление">
+        <Grid Background="#FFE5E5E5" ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+          <Label Content="Название пластинки" Grid.Row="0" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="name_tb" Grid.Row="0" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="Артист" Grid.Row="1" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="artist_tb" Grid.Row="1" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="Издание" Grid.Row="2" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="izdanie_tb" Grid.Row="2" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="Цена" Grid.Row="3" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="cost_tb" Grid.Row="3" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="Жанр" Grid.Row="4" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="genre_tb" Grid.Row="4" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="release_id" Grid.Row="5" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="releaseid_tb" Grid.Row="5" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="Год" Grid.Row="6" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="year_tb" Grid.Row="6" Grid.Column="1" Width="200" Margin="5"/>
+          <Label Content="id_tracklist" Grid.Row="7" Grid.Column="0" Margin="5"/>
+          <TextBox x:Name="tracklist_tb" Grid.Row="7" Grid.Column="1" Width="200" Margin="5"/>
+          <Button x:Name="addItem_btn" Content="ДОБАВИТЬ" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="1" Width="249" Margin="5"/>
+        </Grid>
+      </TabItem>
+      <TabItem Header="Редактирование">
+        <Grid Background="#FFE5E5E5">
+          <TextBox x:Name="search_tb_edit" HorizontalAlignment="Left" Margin="11,9,0,0" TextWrapping="Wrap" Text="id пластинки" VerticalAlignment="Top" Width="306" Height="29" Background="White" BorderBrush="Black" FontSize="18" Grid.ColumnSpan="3"/>
+        </Grid>
+      </TabItem>
+    </TabControl>
+
+</Window>

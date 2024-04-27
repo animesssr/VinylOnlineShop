@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("/_Sources/KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("/_Sources/Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("/_Sources/Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("/_Sources/Soledago.ttf");
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #D9CEBA;
+}
+.logo{
+    width: auto;
+    margin: auto;
+}
+.logo_img{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.nav{
+    margin: auto;
+    width: 75%;
+    font-family: "KellySlab";
+    font-size: 20px;
+}
+.nav-menu{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+.nav-menu_item{
+    display: flex;
+}
+.link{
+    text-decoration-line: none;
+    color: black;
+}
+.link:hover{
+    text-decoration-line: underline;
+}
+
+.main-txt{
+    margin: 100px;
+}
+.main-block{
+    display: flex;
+    font-family: "KellySlab";
+    font-size: 35px;
+}
+
+.support_paragraph{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.support-contacts_title{
+    margin-top: 300px;
+    text-decoration-line: underline;
+}

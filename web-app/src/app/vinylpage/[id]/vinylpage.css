@@ -1,0 +1,31 @@
+.vinylPage{
+    display: flex;
+    flex-direction: row;
+    font-family: 'KellySlab';
+    font-size: 30px;
+    line-height: 50px;
+    color: #5A5A5A;
+}
+
+.btn_back{
+    border: none;
+    width: 180px;
+    height: 40px;
+    background: url(./back.svg) no-repeat;
+
+}
+
+.v_vinyl-block{
+    margin: 80px;
+    margin-top: 30px;
+}
+.tracklist{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.tracklist-item{
+    display: flex;
+    white-space: pre-wrap;
+}

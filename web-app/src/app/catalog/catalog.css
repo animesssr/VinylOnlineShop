@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("../KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("../Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("../Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("../Soledago.ttf");
+}
+
+@media screen and (max-width: 768px){
+    .inputs{
+        margin: 10px !important;
+        flex-direction: column !important;
+    }
+    .searchInput{
+        width: 92% !important;
+    }
+    .genreSelect{
+        width: 95% !important;
+    }
+    .sortTypeSelect{
+        width: 95% !important;
+    }
+}
+
+
+.inputs{
+    font-family: "KellySlab";
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-between;
+}
+.searchInput{
+    width: 800px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: 'KellySlab';
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border: solid #c0c0c0 0.5px;
+}
+.searchInput:focus{
+    border: solid #9d9d9d 0.5px;
+}
+
+.genreSelect{
+    width: 250px;
+    height: 40px;
+    border-color: #E0E0E0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.sort{
+    display: flex;
+    flex-direction: column;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+.sortTypeSelect{
+    width: 260px;
+    height: 40px;
+    border-color: #E0E0E0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.s_vinyl-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn_search{
+    margin: 10px;
+    
+}

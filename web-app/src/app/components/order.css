@@ -1,0 +1,50 @@
+.order-block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.order_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.order_id{
+    font-family: 'KellySlab';
+    font-size: 27px;
+    color: #5A5A5A;
+}
+.order_status{
+    font-family: 'KellySlab';
+    font-size: 25px;
+    color: #7c7c7c9d;
+    margin-left: 10px;
+}
+.order_vinyls{
+    display: flex;
+    flex-direction: column;
+}
+.order_price{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.order_price_text{
+    font-family: 'KellySlab';
+    color: #f244057e;
+    font-size: 60px;
+    margin: 0;
+    margin-right: 15px;
+}
+.order_price_value{
+    font-family: 'Sura_B';
+    color: black;
+    margin: 0;
+}
+.orders_no-orders{
+    font-family: 'KellySlab';
+    font-size: 30px;
+    color: #5A5A5A;
+}

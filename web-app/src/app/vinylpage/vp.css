@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("../KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("../Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("../Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("../Soledago.ttf");
+}
+
+@media screen and (max-width: 768px){
+    .vinylPage{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .btn_back{
+        margin: 10px;
+    }
+    .v_vinyl-block{
+        display: flex;
+        margin: 0 !important;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .tracklist{
+        margin: 0 !important;
+    }
+    .tracklist-item{
+        text-align: justify;
+    }
+}
+
+
+.s_vinyl-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.vinyl_info{
+    display: flex;
+    flex-direction: column;
+    white-space: pre-wrap;
+    width: 100%;
+}
+.vinyl-card{
+    display: flex;
+    flex-direction: column;
+    word-break: normal;
+    margin: 25px;
+    align-items: center;
+    width: 350px;
+}
+.vinyl_artist{
+    font-family: "Sura_R";
+    font-size: 20px;
+    margin: 0;
+}
+.vinyl_name{
+    font-family: "Sura_B";
+    font-size: 25px;
+    text-decoration-line: none;
+    color: black;
+    margin: 0;
+}
+.vinyl_edit{
+    font-family: "Sura_R";
+    font-size: 15px;
+    margin: 0;
+}
+.vinyl_price{
+    font-family: "Sura_B";
+    font-size: 38px;
+    color: #5A5A5A;
+    margin: 10px;
+}
+.vinyl_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vinyl_incart_form{
+    margin: auto;
+    margin-right: 0;
+    display: inline-block;
+}
+.btn_incart{
+    font-family: "Soledago";
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #F28705;
+}

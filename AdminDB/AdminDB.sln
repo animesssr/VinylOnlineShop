@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminDB", "AdminDB\AdminDB.csproj", "{6683D059-F655-41CD-90AC-0D0200F94F7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminDB.Desktop", "AdminDB.Desktop\AdminDB.Desktop.csproj", "{0D22D3A0-53E2-43A0-8AF4-A3AAA24F5B93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6683D059-F655-41CD-90AC-0D0200F94F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6683D059-F655-41CD-90AC-0D0200F94F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6683D059-F655-41CD-90AC-0D0200F94F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6683D059-F655-41CD-90AC-0D0200F94F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D22D3A0-53E2-43A0-8AF4-A3AAA24F5B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D22D3A0-53E2-43A0-8AF4-A3AAA24F5B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D22D3A0-53E2-43A0-8AF4-A3AAA24F5B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D22D3A0-53E2-43A0-8AF4-A3AAA24F5B93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AD4CBF8-E58C-4E91-BF70-45E8C2B3BDF4}
+	EndGlobalSection
+EndGlobal

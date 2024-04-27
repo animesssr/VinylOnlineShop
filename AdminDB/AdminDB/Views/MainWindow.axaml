@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AdminDB.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:AdminDB.Views"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AdminDB.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AdminDB">
+        <views:MainView>
+
+          <Grid>
+            <Label Content="Авторизация" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <TextBox x:Name="login_tb" HorizontalAlignment="Center" Margin="0,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="логин"/>
+            <TextBox x:Name="pass_tb" HorizontalAlignment="Center" Margin="0,207,0,0" TextWrapping="Wrap" Text="пароль" VerticalAlignment="Top" Width="120"/>
+            <Button HorizontalAlignment="Center" Margin="0,252,0,0" VerticalAlignment="Top" Width="112" Click="login_btn_Click"></Button>
+            <Label x:Name="error_lbl" Content="ошибка в данных автооризации" HorizontalAlignment="Center" Margin="0,299,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FFFF1414"/>
+          </Grid>
+          
+        </views:MainView>
+
+</Window>

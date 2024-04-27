@@ -1,0 +1,15 @@
+.help-block{
+    display: flex;
+    flex-direction: row;
+}
+.help-block_content{
+    width: 60%;
+    font-family: 'KellySlab';
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.help-block_links{
+    margin-top: 120px;
+}

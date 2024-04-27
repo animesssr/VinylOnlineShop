@@ -1,0 +1,43 @@
+.order_vinyl-block{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    width: 95%;
+    font-family: 'Sura_R';
+    font-size: 20px;
+}
+.order_vinyl_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 100%;
+}
+.order_vinyl_name{
+    font-family: 'Sura_B';
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.order_vinyl_edit{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.order_vinyl_artist{
+    margin-bottom: 10px;
+}
+.order_vinyl-info_txt{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.order_vinyl_bottom{
+    display: flex;
+    width: fit-content;
+}
+.order_vinyl_price{
+    font-family: 'Sura_B';
+    font-size: 45px;
+    color: #5A5A5A;
+}

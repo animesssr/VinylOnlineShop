@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("./KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("./Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("./Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("./Soledago.ttf");
+}
+
+@media screen and (max-width: 768px){
+    .new-txt{
+        align-self: center;
+    }
+    .soon-txt{
+        align-self: center;
+    }
+    .about{
+        margin: 10px !important;
+    }
+    .about-head_img{
+        align-items: center;
+    }
+    .main-block-section_new{
+        margin-top: 20px !important;
+    }
+}
+
+.main-block{
+    display: flex;
+    flex-direction: column;
+}
+.items-block{
+    display: flex;
+    flex-direction: row;
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+.main-block-sections{
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.vinyls{
+    display: flex;
+    overflow-x: auto;
+}
+.main-block-section_new{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+.main-block-section_soon{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.vinyl-block{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.about{
+    font-family: "KellySlab";
+    font-size: 30px;
+    margin: 100px;
+}
+.about_txt{
+    text-align: justify
+}

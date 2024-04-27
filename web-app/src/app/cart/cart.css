@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "KellySlab";
+    src: url("../KellySlab.ttf");
+}
+@font-face {
+    font-family: "Sura_R";
+    src: url("../Sura_regular.ttf");
+}
+@font-face {
+    font-family: "Sura_B";
+    src: url("../Sura_bold.ttf");
+}
+@font-face {
+    font-family: "Soledago";
+    src: url("../Soledago.ttf");
+}
+
+.cart-vinyl_edit{
+    font-size: 15px;
+    font-family: "Sura_R";
+}
+.cart-vinyl_artist{
+    font-size: 25px;
+    font-family: "Sura_R";
+    margin-top: 20px;
+}
+.cart-vinyl_name{
+    font-size: 30px;
+    font-family: "Sura_B";
+    text-decoration-line: none;
+    color: black;
+}
+.cart-vinyl_price{
+    font-size: 40px;
+    font-family: "Sura_B";
+    color: #5A5A5A;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cart-main{
+    display: flex;
+    flex-direction: row;
+}
+.cart_vinyls{
+    display: flex;
+    margin: 75px;
+    flex-direction: column;
+    width: 100%;
+    flex-basis: 80%;
+}
+.cart-vinyl_info{
+    display: flex;
+    flex-direction: column;
+}
+.empty_txt{
+    font-family: 'Soledago';
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: #5A5A5A;
+    margin: 100px;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+}
+.vinyl_incart{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.cart-vinyl_info{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.cart-vinyl_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-btn_incart{
+    font-family: "Soledago";
+    font-size: 30px;
+    border: none;
+    background: none;
+    float: right;
+    color: #5A5A5A;
+}
+
+.cart-main_block{
+    display: flex;
+    flex-direction: column;
+}
+.cart-order_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    font-family: 'KellySlab';
+}
+.cart-order_txt{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.order_txt{
+    font-size: 40px;
+    text-decoration: underline 2.5px;
+    color: #5A5A5A;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.с_method{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.order_pickup{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+.сart-p_txt{
+    margin-top: 5px;
+    font-size: 25px;
+    color: #5A5A5A;
+}
+.o_i{
+    margin-bottom: 10px;
+}
+.order_other{
+    display: flex;
+    flex-direction: column;
+}
+.adress_input{
+    height: 40px;
+    width: 60%;
+    margin-bottom: 15px;
+    border: solid #E0E0E0 0.5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'KellySlab';
+    font-size: 17px;
+}
+.payment_cash{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.payment_card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.card_num{
+    margin-bottom: 5px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: solid #E0E0E0 0.5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'KellySlab';
+    font-size: 17px;
+}
+.card_exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_exp input{
+    height: 40px;
+    margin-bottom: 15px;
+    border: solid #E0E0E0 0.5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'KellySlab';
+    font-size: 17px;
+    width: 45%;
+}
+
+.order_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_total-txt{
+    font-size: 40px;
+    color: #f2440584;
+}
+.order_btn{
+    background: none;
+    border: none;
+    font-family: 'KellySlab';
+    font-size: 40px;
+    text-decoration: underline 2.5px;
+    color: #F28705;
+}
